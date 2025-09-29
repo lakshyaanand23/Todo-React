@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import { FaEdit } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import { v4 as uuidv4 } from 'uuid';
+import Footer from './components/Footer';
 
 function App() { 
 
@@ -103,8 +104,8 @@ function App() {
           </div>
           })}
          </div>
-        
        </div>
+       <Footer/>
     </>
   )
 }
